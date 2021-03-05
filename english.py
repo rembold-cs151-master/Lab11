@@ -7725,7 +7725,7 @@ ENGLISH_WORDS = [
   "fallals", "fallback", "fallbacks", "fallen", "faller", "fallers",
   "fallfish", "fallfishes", "fallibility", "fallible", "fallibly",
   "falling", "falloff", "falloffs", "fallout", "fallouts", "fallow",
-  "fallowed", "fallowing", "fallowness", "fallows", "falls", "False",
+  "fallowed", "fallowing", "fallowness", "fallows", "falls", "false",
   "falsehood", "falsehoods", "falsely", "falseness", "falser",
   "falsest", "falsetto", "falsettos", "falsie", "falsies",
   "falsification", "falsifications", "falsified", "falsifier",
