@@ -21,7 +21,7 @@ def test_letter_counts(capsys):
     captured = capsys.readouterr().out
 
     letters = ["A", "C", "S", "V", "X", "Z"]
-    counts = ["7,152", "11,789", "14,121", "2,175", "89", "421"]
+    counts = ["7,152", "11,790", "14,122", "2,176", "90", "422"]
 
     for let, c in zip(letters, counts):
         let_pos = captured.find(let)
