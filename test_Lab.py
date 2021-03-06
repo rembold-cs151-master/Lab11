@@ -6,8 +6,15 @@ from Lab import count_words
 alphabet = "ABCDEFGHIJKLMNOPQRSTUVWXYZ"
 
 def get_number(string):
-    clean_list = [x for x in string.split(" ") if len(x) > 0]
-    return clean_list[1]
+    num = ""
+    num_found = False
+    for letter in string:
+        if letter.isdigit() and not num_found:
+            num_found = True
+        if letter == "w":
+            return num.strip()
+        if num_found:
+            num += letter
 
 def get_line(string, letter):
     start = string.find(letter)
